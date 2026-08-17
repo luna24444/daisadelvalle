@@ -12,7 +12,7 @@ export function Hero() {
           <Reveal>
             <span className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest-plus text-primary">
               <span className="h-px w-8 bg-primary" />
-              Advocacia • Muzambinho/MG
+              DEL VALLE & FONSECA • ADVOCACIA
             </span>
           </Reveal>
 
