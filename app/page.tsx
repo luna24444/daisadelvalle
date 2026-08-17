@@ -1,6 +1,5 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
-import { MicroHighlights } from "@/components/micro-highlights"
 import { Connection } from "@/components/connection"
 import { PracticeAreas } from "@/components/practice-areas"
 import { Differentiators } from "@/components/differentiators"
@@ -51,7 +50,6 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero />
-        <MicroHighlights />
         <Connection />
         <PracticeAreas />
         <Differentiators />
