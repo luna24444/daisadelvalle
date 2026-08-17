@@ -27,25 +27,23 @@ export function AboutOffice() {
         <div>
           <Reveal>
             <span className="text-[11px] uppercase tracking-widest-plus text-primary">
-              O escritório
+              ESCRITÓRIO
             </span>
           </Reveal>
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-[1.15] text-foreground text-balance md:text-[2.75rem]">
-              Duas profissionais. Um compromisso com uma advocacia responsável e estratégica.
+              Você sabe quais são os seus direitos antes de tomar uma decisão importante?
             </h2>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-              O escritório Daísa Del Valle &amp; Sabryna Fonseca nasceu com o propósito de oferecer
-              uma advocacia próxima, estratégica e responsável, especialmente em questões que
-              envolvem família, patrimônio e sucessões.
+              Uma separação. A guarda dos filhos. Uma pensão. A divisão de um patrimônio. A aposentadoria que se aproxima. Um benefício do INSS.
+              Cada uma dessas situações pode envolver decisões importantes — e entender as possibilidades jurídicas antes de agir pode fazer toda a diferença.
+              NO Del Valle & Fonseca Advocacia, você encontra orientação próxima e individualizada em Direito de Família e Direito Previdenciário, com análise cuidadosa de cada situação.
             </p>
           </Reveal>
           <Reveal delay={240}>
             <div className="mt-8 rounded-sm border border-dashed border-border bg-secondary/40 p-5 text-sm leading-relaxed text-muted-foreground">
-              [ESPAÇO PARA INFORMAÇÕES ADICIONAIS SOBRE O ESCRITÓRIO — valores, propósito, forma de
-              trabalho.]
             </div>
           </Reveal>
         </div>
