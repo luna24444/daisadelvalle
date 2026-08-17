@@ -10,7 +10,7 @@ export function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => trackEvent("Contact", { method: "whatsapp_float" })}
-      aria-label="Falar com o escritório no WhatsApp"
+      aria-label="Clique aqui!"
       className="group fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-primary py-3 pl-3 pr-4 text-primary-foreground shadow-lg transition-all duration-300 hover:opacity-95 hover:shadow-xl md:bottom-6 md:right-6"
     >
       <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/15">
