@@ -17,7 +17,6 @@ export function AboutOffice() {
               />
               <div className="absolute inset-x-4 bottom-4 rounded-sm border border-primary-foreground/25 bg-foreground/45 px-4 py-3 text-center backdrop-blur-sm">
                 <span className="text-[11px] uppercase tracking-widest-plus text-primary-foreground/90">
-                  [FOTO DAÍSA + SABRYNA NO ESCRITÓRIO]
                 </span>
               </div>
             </div>
