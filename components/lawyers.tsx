@@ -12,8 +12,8 @@ const lawyers = [
   },
   {
     name: "Sabryna Fonseca",
-    image: null,
-    bio: "[INSERIR BIOGRAFIA PROFISSIONAL DA SABRYNA — formação, áreas de dedicação e abordagem de atendimento.]",
+    image: "/sabryna.jpeg",
+    bio: "Atua na área previdenciária com uma abordagem próxima e estratégica, analisando cada situação de forma individualizada para orientar seus clientes sobre direitos, benefícios e possibilidades jurídicas.",
     message: "Olá! Gostaria de conhecer a atuação da Dra. Sabryna Fonseca.",
   },
 ]
