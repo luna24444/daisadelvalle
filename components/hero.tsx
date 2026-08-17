@@ -30,12 +30,12 @@ export function Hero() {
 
           <Reveal delay={240}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <WhatsAppCta>Falar com o escritório</WhatsAppCta>
+              <WhatsAppCta>Fale conosco! </WhatsAppCta>
               <a
                 href="#atuacao"
                 className="inline-flex items-center justify-center gap-2 rounded-sm border border-foreground/25 px-7 py-3.5 text-sm font-medium tracking-wide text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-foreground/60"
               >
-                Conhecer nossa atuação
+                Conheça o escritório!
               </a>
             </div>
           </Reveal>
