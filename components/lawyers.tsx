@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { WhatsAppCta } from "@/components/whatsapp-cta"
 import { Reveal } from "@/components/reveal"
 import { cn } from "@/lib/utils"
@@ -5,13 +6,13 @@ import { cn } from "@/lib/utils"
 const lawyers = [
   {
     name: "Daísa Del Valle",
-    placeholder: "[FOTO DA DAÍSA]",
-    bio: "[INSERIR BIOGRAFIA PROFISSIONAL DA DAÍSA — formação, áreas de dedicação e abordagem de atendimento.]",
+    image: "/daisa.del.valle.jpg.jpeg",
+    bio: "Atua com orientação jurídica individualizada em questões previdenciárias, buscando compreender cada situação de forma cuidadosa e apresentar, com clareza, os caminhos juridicamente possíveis.",
     message: "Olá! Gostaria de conhecer a atuação da Dra. Daísa Del Valle.",
   },
   {
     name: "Sabryna Fonseca",
-    placeholder: "[FOTO DA SABRYNA]",
+    image: null,
     bio: "[INSERIR BIOGRAFIA PROFISSIONAL DA SABRYNA — formação, áreas de dedicação e abordagem de atendimento.]",
     message: "Olá! Gostaria de conhecer a atuação da Dra. Sabryna Fonseca.",
   },
@@ -27,6 +28,7 @@ export function Lawyers() {
               As advogadas
             </span>
           </Reveal>
+
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-tight text-foreground text-balance md:text-5xl">
               Quem vai acompanhar o seu caso
@@ -43,26 +45,46 @@ export function Lawyers() {
               <Reveal
                 className={cn(i % 2 === 1 && "md:order-2")}
               >
-                <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden rounded-sm border border-border bg-gradient-to-br from-accent/30 via-secondary to-muted">
-                  <div className="text-center">
-                    <div className="mx-auto mb-4 h-16 w-px bg-primary/40" />
-                    <span className="text-[11px] uppercase tracking-widest-plus text-primary/70">
-                      {lawyer.placeholder}
-                    </span>
-                  </div>
+                <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-secondary">
+                  {lawyer.image ? (
+                    <Image
+                      src={lawyer.image}
+                      alt={`Dra. ${lawyer.name}`}
+                      fill
+                      className="object-cover object-center"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center">
+                      <div className="text-center">
+                        <div className="mx-auto mb-4 h-16 w-px bg-primary/40" />
+                        <span className="text-[11px] uppercase tracking-widest-plus text-primary/70">
+                          Foto em breve
+                        </span>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </Reveal>
 
               <Reveal delay={120} className={cn(i % 2 === 1 && "md:order-1")}>
-                <p className="font-serif text-lg text-primary">0{i + 1}</p>
+                <p className="font-serif text-lg text-primary">
+                  0{i + 1}
+                </p>
+
                 <h3 className="mt-2 font-serif text-3xl text-foreground md:text-4xl">
                   {lawyer.name}
                 </h3>
-                <div className="mt-5 rounded-sm border border-dashed border-border bg-card p-5 text-sm leading-relaxed text-muted-foreground">
+
+                <div className="mt-5 rounded-sm border border-border bg-card p-5 text-sm leading-relaxed text-muted-foreground">
                   {lawyer.bio}
                 </div>
+
                 <div className="mt-7">
-                  <WhatsAppCta variant="outline" message={lawyer.message}>
+                  <WhatsAppCta
+                    variant="outline"
+                    message={lawyer.message}
+                  >
                     Conheça a atuação
                   </WhatsAppCta>
                 </div>
