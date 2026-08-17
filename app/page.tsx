@@ -4,7 +4,6 @@ import { MicroHighlights } from "@/components/micro-highlights"
 import { Connection } from "@/components/connection"
 import { PracticeAreas } from "@/components/practice-areas"
 import { Differentiators } from "@/components/differentiators"
-import { Impact } from "@/components/impact"
 import { AboutOffice } from "@/components/about-office"
 import { Lawyers } from "@/components/lawyers"
 import { ProcessTimeline } from "@/components/process-timeline"
@@ -56,7 +55,6 @@ export default function Page() {
         <Connection />
         <PracticeAreas />
         <Differentiators />
-        <Impact />
         <AboutOffice />
         <Lawyers />
         <ProcessTimeline />
