@@ -20,7 +20,7 @@ const jsonLd = {
   "@type": "LegalService",
   name: site.fullName,
   description:
-    "Escritório de advocacia em Muzambinho/MG com atuação em Direito de Família, Divórcio, Guarda, Pensão, Inventário, Sucessões e Planejamento Patrimonial.",
+    "Escritório de advocacia em Muzambinho/MG com atuação em Direito de Família,Previdenciário, Divórcio, Guarda, Pensão, Inventário, Sucessões e Planejamento Patrimonial.",
   areaServed: "Muzambinho, MG",
   address: {
     "@type": "PostalAddress",
@@ -30,6 +30,7 @@ const jsonLd = {
   },
   knowsAbout: [
     "Direito de Família",
+    "Previdenciário",
     "Divórcio",
     "Guarda de filhos",
     "Pensão alimentícia",
