@@ -5,11 +5,10 @@ export const site = {
   fullName: "Del Valle & Fonseca Advocacia",
   logo: "/images/logo.png",
   city: "Muzambinho/MG",
-  // Número no formato internacional, apenas dígitos (55 + DDD + número).
-  whatsappNumber: "5535999999999", // [INSERIR NÚMERO DE WHATSAPP]
-  whatsappMessage: "Olá! Gostaria de informações sobre o atendimento jurídico.",
+  whatsappNumber: "553591161349", 
+  whatsappMessage: "Olá!Vim pelo site e gostaria de informações saber mais,por favor.",
   email: "contato@daisaesabryna.adv.br", // [INSERIR E-MAIL]
-  instagram: "https://instagram.com/", // [INSERIR INSTAGRAM]
+  instagram: "https://www.instagram.com/delvalleefonseca/",
   oab: {
     daisa: "OAB/MG [INSERIR NÚMERO]",
     sabryna: "OAB/MG [INSERIR NÚMERO]",
@@ -18,7 +17,7 @@ export const site = {
 
 export const navLinks = [
   { label: "Início", href: "#inicio" },
-  { label: "O Escritório", href: "#escritorio" },
+  { label: "Escritório", href: "#escritorio" },
   { label: "Atuação", href: "#atuacao" },
   { label: "Advogadas", href: "#advogadas" },
   { label: "Conteúdos", href: "#conteudos" },
