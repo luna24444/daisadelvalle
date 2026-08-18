@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
-// Estrutura preparada para futura conexão com CMS/blog.
 type Article = {
   category: string
   title: string
@@ -12,51 +11,51 @@ type Article = {
 
 const articles: Article[] = [
   {
-    category: "Guarda",
-    title: "Seu ex disse que vai tirar seus filhos? Entenda o que você precisa saber.",
+    category: "PREVIDENCIÁRIO",
+    title: "Está pensando em se aposentar?",
     summary:
-      "Entenda de forma geral como a guarda e a convivência são tratadas e o que pode ser avaliado em cada caso.",
-    date: "2025",
-    slug: "guarda-de-filhos",
+      "Orientação e análise das possibilidades de aposentadoria de acordo com o histórico previdenciário e as particularidades de cada caso.",
+    date: "2026",
+    slug: "aposentadoria-o-que-analisar",
   },
   {
-    category: "Divórcio",
-    title: "Quem sai de casa perde seus direitos?",
+    category: "PREVIDENCIÁRIO",
+    title: "Não consegue trabalhar por causa de uma doença ou incapacidade?",
     summary:
-      "Uma dúvida comum em separações. Veja aspectos gerais sobre direitos relacionados ao imóvel e à convivência.",
-    date: "2025",
-    slug: "sair-de-casa-direitos",
+      "Entenda, de forma geral, como funciona o benefício por incapacidade temporária e quais aspectos podem ser considerados em cada situação.",
+    date: "2026",
+    slug: "beneficio-incapacidade-temporaria",
   },
   {
-    category: "Pensão",
+    category: "DIREITO FAMILIAR",
     title: "O pai não está pagando pensão. Quais caminhos podem ser avaliados?",
     summary:
       "Conheça, em linhas gerais, as possibilidades relacionadas à execução e revisão de alimentos.",
-    date: "2025",
+    date: "2026",
     slug: "pensao-nao-paga",
   },
   {
-    category: "Família",
+    category: "DIREITO FAMILIAR",
     title: "Guarda compartilhada: o que ela realmente significa?",
     summary:
       "Esclarecemos conceitos gerais sobre a guarda compartilhada e como ela pode ser organizada.",
-    date: "2025",
+    date: "2026",
     slug: "guarda-compartilhada",
   },
   {
-    category: "Sucessões",
-    title: "Inventário: por onde começar?",
+    category: "PREVIDENCIÁRIO",
+    title: "BPC/LOAS: quem pode ter direito ao benefício?",
     summary:
-      "Uma visão geral sobre os primeiros passos e as modalidades judicial e extrajudicial de inventário.",
-    date: "2025",
-    slug: "inventario-por-onde-comecar",
+      "Conheça os principais aspectos do Benefício de Prestação Continuada destinado à pessoa idosa e à pessoa com deficiência.",
+    date: "2026",
+    slug: "bpc-loas-quem-pode-ter-direito",
   },
   {
-    category: "Patrimônio",
+    category: "DIREITO FAMILIAR",
     title: "O que acontece quando existe patrimônio a ser partilhado após um falecimento?",
     summary:
       "Entenda de forma geral como a partilha de bens costuma ser conduzida em processos sucessórios.",
-    date: "2025",
+    date: "2026",
     slug: "partilha-apos-falecimento",
   },
 ]
@@ -68,12 +67,12 @@ export function Articles() {
         <div className="max-w-2xl">
           <Reveal>
             <span className="text-[11px] uppercase tracking-widest-plus text-primary">
-              Conteúdos
+              Direito Previdenciário e Familiar
             </span>
           </Reveal>
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-tight text-foreground text-balance md:text-5xl">
-              Informação para decisões mais conscientes.
+              Entender seus direitos hoje pode fazer diferença no seu futuro.
             </h2>
           </Reveal>
         </div>
