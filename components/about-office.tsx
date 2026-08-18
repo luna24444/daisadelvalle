@@ -37,7 +37,7 @@ export function AboutOffice() {
           <Reveal delay={160}>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
               Uma separação. A guarda dos filhos. Uma pensão. A divisão de um patrimônio. A aposentadoria que se aproxima. Um benefício do INSS.
-              Cada uma dessas situações pode envolver decisões importantes — e entender as possibilidades jurídicas antes de agir pode fazer toda a diferença.
+              Cada uma dessas situações pode envolver decisões importantes e entender as possibilidades jurídicas antes de agir pode fazer toda a diferença.
               NO Del Valle & Fonseca Advocacia, você encontra orientação próxima e individualizada em Direito de Família e Direito Previdenciário, com análise cuidadosa de cada situação.
             </p>
           </Reveal>
