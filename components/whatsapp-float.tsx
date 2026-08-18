@@ -11,7 +11,7 @@ export function WhatsAppFloat() {
       rel="noopener noreferrer"
       onClick={() => trackEvent("Contact", { method: "whatsapp_float" })}
       aria-label="Falar com o escritório pelo WhatsApp"
-      className="group fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg transition-all duration-300 hover:scale-105 hover:opacity-95 hover:shadow-xl md:bottom-6 md:right-6"
+      className="group fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-[#20BD5A] hover:shadow-xl md:bottom-6 md:right-6"
     >
       <svg
         viewBox="0 0 24 24"
