@@ -31,18 +31,16 @@ export function WomenSection() {
           </Reveal>
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-[1.15] text-foreground text-balance md:text-[2.75rem]">
-              Você não precisa tomar decisões importantes sem entender os seus direitos.
+              Seja uma questão familiar ou previdenciária, entender seus direitos é o primeiro passo!
             </h2>
           </Reveal>
           <Reveal delay={160}>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
               <p>
-                Questões envolvendo separação, filhos, patrimônio e violência familiar podem trazer
-                insegurança e muitas dúvidas.
+                Questões envolvendo separação, filhos, pensão e patrimônio, assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS, podem trazer insegurança e muitas dúvidas.
               </p>
               <p>
-                Buscar orientação jurídica adequada é uma forma de compreender as possibilidades e
-                tomar decisões mais conscientes.
+                Questões envolvendo separação, filhos, pensão e patrimônio, assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS, podem trazer insegurança e muitas dúvidas.
               </p>
             </div>
           </Reveal>
