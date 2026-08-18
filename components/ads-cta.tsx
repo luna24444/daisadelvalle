@@ -20,7 +20,7 @@ export function AdsCta() {
         <Reveal delay={160}>
           <div className="mt-9 flex justify-center">
             <WhatsAppCta message="Olá! Vim de um anúncio e gostaria de falar com o escritório.">
-              Quero entender minha situação.
+              Fale com um especialista!
             </WhatsAppCta>
           </div>
         </Reveal>
