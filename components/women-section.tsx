@@ -40,8 +40,7 @@ export function WomenSection() {
                 Questões envolvendo separação, filhos, pensão e patrimônio, assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS, podem trazer insegurança e muitas dúvidas.
               </p>
               <p>
-                Questões envolvendo separação, filhos, pensão e patrimônio, assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS, podem trazer insegurança e muitas dúvidas.
-              </p>
+                Buscar orientação jurídica adequada é uma forma de compreender as possibilidades do seu caso e tomar decisões com mais clareza e segurança.              </p>
             </div>
           </Reveal>
           <Reveal delay={240}>
