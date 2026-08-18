@@ -18,7 +18,7 @@ Fale com o escritório e compreenda as possibilidades para o seu caso.
         </Reveal>
         <Reveal delay={160}>
           <div className="mt-10 flex justify-center">
-            <WhatsAppCta variant="light">Falar com o escritório</WhatsAppCta>
+            <WhatsAppCta variant="light">Clique aqui!</WhatsAppCta>
           </div>
         </Reveal>
       </div>
