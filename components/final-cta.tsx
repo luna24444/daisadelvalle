@@ -7,13 +7,13 @@ export function FinalCta() {
       <div className="mx-auto max-w-3xl px-5 text-center md:px-8">
         <Reveal>
           <h2 className="font-serif text-3xl leading-tight text-balance md:text-5xl">
-            Vamos conversar sobre o seu caso?
+            Uma decisão importante começa por entender os seus direitos.
           </h2>
         </Reveal>
         <Reveal delay={80}>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-primary-foreground/80 md:text-lg">
-            Se você deseja compreender melhor uma questão familiar, patrimonial ou sucessória, entre
-            em contato com nosso escritório.
+            Seja uma questão de Família, como divórcio, guarda ou pensão. Ou Previdenciária, como aposentadoria e benefícios, entender seus direitos é o primeiro passo.
+Fale com o escritório e compreenda as possibilidades para o seu caso.
           </p>
         </Reveal>
         <Reveal delay={160}>
