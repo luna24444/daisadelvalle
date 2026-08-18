@@ -6,7 +6,7 @@ export const site = {
   logo: "/images/logo.png",
   city: "Muzambinho/MG",
   whatsappNumber: "553591161349", 
-  whatsappMessage: "Olá!Vim pelo site e gostaria de informações saber mais,por favor.",
+  whatsappMessage: "Olá!Vim pelo site e gostaria de mais informações,por favor.",
   email: "contato@daisaesabryna.adv.br", // [INSERIR E-MAIL]
   instagram: "https://www.instagram.com/delvalleefonseca/",
   oab: {
