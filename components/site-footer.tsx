@@ -15,8 +15,7 @@ export function SiteFooter() {
             </p>
             <p className="mt-1 text-[10px] tracking-[0.42em] text-primary">ADVOCACIA</p>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              Advocacia próxima, estratégica e responsável em Direito de Família, Patrimônio e
-              Sucessões.
+              Advocacia próxima, estratégica e responsável em Direito de Família e Direito Previdenciário.
             </p>
           </div>
 
@@ -88,8 +87,7 @@ export function SiteFooter() {
 
         <div className="mt-14 border-t border-border pt-8">
           <p className="max-w-3xl text-xs leading-relaxed text-muted-foreground">
-            Conteúdo de caráter informativo. As informações apresentadas neste site não substituem
-            orientação jurídica individualizada.
+            Conteúdo de caráter informativo e educativo. As informações apresentadas neste site não substituem a análise e a orientação jurídica individualizada.
           </p>
           <p className="mt-4 text-xs text-muted-foreground/70">
             © {new Date().getFullYear()} {site.fullName}. Todos os direitos reservados.
