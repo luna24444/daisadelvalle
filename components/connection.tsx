@@ -7,21 +7,21 @@ export function Connection() {
       <div className="mx-auto max-w-4xl px-5 text-center md:px-8">
         <Reveal>
           <span className="text-[11px] uppercase tracking-widest-plus text-primary">
-            Um primeiro passo
+            Direito Familiar e Previdenciário.
           </span>
         </Reveal>
         <Reveal delay={80}>
           <h2 className="mx-auto mt-6 max-w-3xl font-serif text-3xl leading-[1.15] text-foreground text-balance md:text-5xl">
-            Decisões importantes merecem clareza, estratégia e orientação.
+            Você não precisa tomar uma decisão importante sem entender seus direitos.
           </h2>
         </Reveal>
         <Reveal delay={160}>
           <div className="mx-auto mt-8 max-w-2xl space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              Questões familiares, patrimoniais, sucessórias e previdenciárias fazem parte de momentos que podem mudar uma trajetória.
+              Questão familiar,separação, guarda ou pensão. Uma dúvida sobre aposentadoria, benefício ou BPC/LOAS. Cada situação merece ser analisada de forma individualizada.
             </p>
             <p>
-              Nosso papel é compreender cada situação, apresentar as possibilidades jurídicas e orientar você sobre os próximos passos.
+              Conte com a orientação da Daísa Del Valle & Sabryna Fonseca Advocacia para compreender sua situação e as possibilidades jurídicas que podem ser avaliadas!
             </p>
           </div>
         </Reveal>
