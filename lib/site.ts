@@ -1,5 +1,3 @@
-// Configurações centrais do site. Substitua os valores marcados com [INSERIR ...].
-
 export const site = {
   name: "Del Valle & Fonseca Advocacia",
   fullName: "Del Valle & Fonseca Advocacia",
@@ -24,9 +22,6 @@ export const navLinks = [
   { label: "Dúvidas", href: "#duvidas" },
 ] as const
 
-/**
- * Monta o link do WhatsApp preservando os parâmetros UTM presentes na URL atual.
- */
 export function buildWhatsAppUrl(customMessage?: string) {
   const base = `https://wa.me/${site.whatsappNumber}`
   let message = customMessage ?? site.whatsappMessage
