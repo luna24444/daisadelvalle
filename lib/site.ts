@@ -7,11 +7,11 @@ export const site = {
   city: "Muzambinho/MG",
   whatsappNumber: "553591161349", 
   whatsappMessage: "Olá!Vim pelo site e gostaria de mais informações,por favor.",
-  email: "contato@daisaesabryna.adv.br", // [INSERIR E-MAIL]
+  email: "delvalleefonseca.adv@gmail.com",
   instagram: "https://www.instagram.com/delvalleefonseca/",
   oab: {
-    daisa: "OAB/MG [INSERIR NÚMERO]",
-    sabryna: "OAB/MG [INSERIR NÚMERO]",
+    daisa: "OAB/MG 209.669",
+    sabryna: "OAB/MG 241.749",
   },
 } as const
 
