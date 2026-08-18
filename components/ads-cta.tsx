@@ -7,20 +7,20 @@ export function AdsCta() {
       <div className="mx-auto max-w-3xl px-5 text-center md:px-8">
         <Reveal>
           <h2 className="font-serif text-3xl leading-tight text-foreground text-balance md:text-5xl">
-            Está passando por uma questão familiar?
+            Uma decisão importante começa por entender os seus direitos!
           </h2>
         </Reveal>
         <Reveal delay={80}>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-foreground/75 md:text-lg">
-            Se você está enfrentando uma separação, dúvida sobre guarda, pensão, partilha ou outra
-            questão relacionada à família, o primeiro passo pode ser compreender melhor a sua
-            situação.
+            Seja em uma questão familiar, como divórcio, guarda ou pensão, ou em uma questão previdenciária,
+            como aposentadoria, benefícios ou BPC/LOAS, cada situação merece uma análise individualizada.
+            Entenda as possibilidades jurídicas para o seu caso!
           </p>
         </Reveal>
         <Reveal delay={160}>
           <div className="mt-9 flex justify-center">
             <WhatsAppCta message="Olá! Vim de um anúncio e gostaria de falar com o escritório.">
-              Falar com o escritório
+              Quero entender minha situação.
             </WhatsAppCta>
           </div>
         </Reveal>
