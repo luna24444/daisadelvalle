@@ -83,7 +83,7 @@ export function PracticeAreas() {
 
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-tight text-foreground text-balance md:text-5xl">
-              Direito de Família e Previdenciário
+              Direito Familiar e Previdenciário
             </h2>
           </Reveal>
 
