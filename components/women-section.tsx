@@ -9,15 +9,16 @@ export function WomenSection() {
         <Reveal className="lg:order-2">
           <div className="relative aspect-[3/4] overflow-hidden rounded-sm md:aspect-[4/5]">
             <Image
-              src="/images/office-detail.png"
-              alt="Detalhe do escritório de advocacia"
+              src="/Sabryna%202.jpeg"
+              alt="Dra. Sabryna Fonseca"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover object-center"
             />
+
             <div className="absolute inset-x-4 bottom-4 rounded-sm border border-primary-foreground/25 bg-foreground/45 px-4 py-3 text-center backdrop-blur-sm">
               <span className="text-[11px] uppercase tracking-widest-plus text-primary-foreground/90">
-                [FOTO FEMININA / FAMÍLIA / DETALHE DO ESCRITÓRIO]
+                Dra. Sabryna Fonseca
               </span>
             </div>
           </div>
@@ -29,20 +30,30 @@ export function WomenSection() {
               Para você
             </span>
           </Reveal>
+
           <Reveal delay={80}>
             <h2 className="mt-5 font-serif text-3xl leading-[1.15] text-foreground text-balance md:text-[2.75rem]">
-              Seja uma questão familiar ou previdenciária, entender seus direitos é o primeiro passo!
+              Seja uma questão familiar ou previdenciária, entender seus
+              direitos é o primeiro passo!
             </h2>
           </Reveal>
+
           <Reveal delay={160}>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
               <p>
-                Questões envolvendo separação, filhos, pensão e patrimônio, assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS, podem trazer insegurança e muitas dúvidas.
+                Questões envolvendo separação, filhos, pensão e patrimônio,
+                assim como dúvidas sobre aposentadoria, benefícios ou BPC/LOAS,
+                podem trazer insegurança e muitas dúvidas.
               </p>
+
               <p>
-                Buscar orientação jurídica adequada é uma forma de compreender as possibilidades do seu caso e tomar decisões com mais clareza e segurança.              </p>
+                Buscar orientação jurídica adequada é uma forma de compreender
+                as possibilidades do seu caso e tomar decisões com mais clareza
+                e segurança.
+              </p>
             </div>
           </Reveal>
+
           <Reveal delay={240}>
             <div className="mt-9">
               <WhatsAppCta message="Olá! Gostaria de conversar com o escritório sobre a minha situação.">
