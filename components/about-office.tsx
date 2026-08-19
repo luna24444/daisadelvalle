@@ -39,9 +39,8 @@ export function AboutOffice() {
               INSS. Cada uma dessas situações pode envolver decisões
               importantes e entender as possibilidades jurídicas antes de agir
               pode fazer toda a diferença. No Del Valle & Fonseca Advocacia,
-              você encontra orientação próxima e individualizada em Direito de
-              Família e Direito Previdenciário, com análise cuidadosa de cada
-              situação.
+              você encontra orientação próxima e individualizada em Direito Familiar 
+              e Direito Previdenciário, com análise cuidadosa de cada situação.
             </p>
           </Reveal>
         </div>
