@@ -1,13 +1,5 @@
 import Script from "next/script"
 
-/**
- * Estrutura de tracking para campanhas de Meta Ads.
- * Defina as variáveis de ambiente para ativar cada ferramenta:
- *  - NEXT_PUBLIC_META_PIXEL_ID
- *  - NEXT_PUBLIC_GTM_ID
- *  - NEXT_PUBLIC_GA4_ID
- * Sem elas, nada é carregado (site permanece leve).
- */
 export function TrackingScripts() {
   const pixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID
@@ -26,6 +18,7 @@ export function TrackingScripts() {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
+
             fbq('init', '${pixelId}');
             fbq('track', 'PageView');
           `}
@@ -35,10 +28,20 @@ export function TrackingScripts() {
       {gtmId ? (
         <Script id="gtm" strategy="afterInteractive">
           {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            (function(w,d,s,l,i){
+              w[l]=w[l]||[];
+              w[l].push({
+                'gtm.start': new Date().getTime(),
+                event:'gtm.js'
+              });
+
+              var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),
+                  dl=l!='dataLayer'?'&l='+l:'';
+
+              j.async=true;
+              j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','${gtmId}');
           `}
         </Script>
@@ -50,10 +53,15 @@ export function TrackingScripts() {
             src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}
             strategy="afterInteractive"
           />
+
           <Script id="ga4" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
+
+              function gtag(){
+                dataLayer.push(arguments);
+              }
+
               gtag('js', new Date());
               gtag('config', '${ga4Id}');
             `}
