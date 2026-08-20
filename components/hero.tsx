@@ -7,6 +7,7 @@ export function Hero() {
   return (
     <section id="inicio" className="relative overflow-hidden bg-background pt-28 md:pt-32">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 md:px-8 md:pb-24 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
+
         {/* Texto */}
         <div className="order-2 lg:order-1">
           <Reveal>
@@ -23,13 +24,16 @@ export function Hero() {
 
           <Reveal delay={160}>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-              Atuação estratégica e humanizada em Direito de Família, Sucessões, Patrimônio e Previdenciário, com atendimento próximo e análise individualizada de cada caso.
+              Atuação estratégica e humanizada em Direito de Família, Sucessões,
+              Patrimônio e Previdenciário, com atendimento próximo e análise
+              individualizada de cada caso.
             </p>
           </Reveal>
 
           <Reveal delay={240}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <WhatsAppCta>Fale conosco! </WhatsAppCta>
+              <WhatsAppCta>Fale conosco!</WhatsAppCta>
+
               <a
                 href="#atuacao"
                 className="inline-flex items-center justify-center gap-2 rounded-sm border border-foreground/25 px-7 py-3.5 text-sm font-medium tracking-wide text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-foreground/60"
@@ -47,25 +51,20 @@ export function Hero() {
           </Reveal>
         </div>
 
-        {/* Imagem */}
+        {/* Foto da Sabryna */}
         <Reveal delay={120} className="order-1 lg:order-2">
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <Image
-                src="/images/office-hero.png"
-                alt="Ambiente do escritório Daísa Del Valle & Sabryna Fonseca Advocacia"
+                src="/Sabryna 3.jpeg"
+                alt="Dra. Sabryna Fonseca"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
-                className="object-cover"
+                className="object-cover object-center"
               />
-              {/* Faixa de placeholder para a foto profissional das advogadas */}
-              <div className="absolute inset-x-4 bottom-4 rounded-sm border border-primary-foreground/25 bg-foreground/45 px-4 py-3 text-center backdrop-blur-sm">
-                <span className="text-[11px] uppercase tracking-widest-plus text-primary-foreground/90">
-                  [FOTO PROFISSIONAL DA DAÍSA E SABRYNA]
-                </span>
-              </div>
             </div>
+
             {/* Moldura decorativa discreta */}
             <div
               aria-hidden="true"
@@ -73,6 +72,7 @@ export function Hero() {
             />
           </div>
         </Reveal>
+
       </div>
     </section>
   )
