@@ -28,7 +28,7 @@ const articles: Article[] = [
     slug: "beneficio-incapacidade-temporaria",
   },
   {
-    category: "DIREITO FAMILIAR",
+    category: "DIREITO DA FAMÍLIA",
     title: "O pai não está pagando pensão. Quais caminhos podem ser avaliados?",
     summary:
       "Conheça, em linhas gerais, as possibilidades relacionadas à execução e revisão de alimentos.",
@@ -36,7 +36,7 @@ const articles: Article[] = [
     slug: "pensao-nao-paga",
   },
   {
-    category: "DIREITO FAMILIAR",
+    category: "DIREITO FAMÍLIA",
     title: "Guarda compartilhada: o que ela realmente significa?",
     summary:
       "Esclarecemos conceitos gerais sobre a guarda compartilhada e como ela pode ser organizada.",
@@ -52,7 +52,7 @@ const articles: Article[] = [
     slug: "bpc-loas-quem-pode-ter-direito",
   },
   {
-    category: "DIREITO FAMILIAR",
+    category: "DIREITO FAMÍLIA",
     title: "O que acontece quando existe patrimônio a ser partilhado após um falecimento?",
     summary:
       "Entenda de forma geral como a partilha de bens costuma ser conduzida em processos sucessórios.",
