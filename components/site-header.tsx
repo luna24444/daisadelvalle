@@ -45,7 +45,7 @@ export function SiteHeader() {
               DEL VALLE &amp; FONSECA
             </span>
             <span className="mt-1 block text-[9px] md:text-[10px] tracking-[0.42em] text-primary">
-              ADVOCACIA
+              ADVOGADOS ASSOCIADOS
             </span>
           </span>
         </a>
