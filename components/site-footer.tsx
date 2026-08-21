@@ -13,7 +13,7 @@ export function SiteFooter() {
               <br />
               &amp; SABRYNA FONSECA
             </p>
-            <p className="mt-1 text-[10px] tracking-[0.42em] text-primary">ADVOCACIA</p>
+            <p className="mt-1 text-[10px] tracking-[0.42em] text-primary">ADVOGADOS ASSOCIADOS</p>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground">
               Advocacia próxima, estratégica e responsável em Direito de Família e Direito Previdenciário.
             </p>
