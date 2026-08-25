@@ -19,36 +19,82 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 })
 
-const siteUrl = "https://daisaesabryna.adv.br"
+const siteUrl = "https://delvalleefonsecaadv.com.br"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
+
+  title: {
+    default: "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
+    template: "%s | Del Valle & Fonseca Advocacia",
+  },
+
   description:
-    "Escritório de advocacia em Muzambinho/MG com atuação em Direito de Família, Divórcio, Guarda, Pensão, Inventário, Sucessões e Planejamento Patrimonial.",
+    "Daísa Del Valle & Sabryna Fonseca Advocacia em Muzambinho/MG. Atuação em Direito de Família e Direito Previdenciário, com atendimento presencial e online.",
+
   keywords: [
-    "advogada em Muzambinho",
     "advocacia em Muzambinho",
+    "advogada em Muzambinho",
+    "advocacia Muzambinho MG",
     "direito de família em Muzambinho",
-    "advogada de família em Muzambinho",
+    "direito previdenciário em Muzambinho",
+    "advogada previdenciária em Muzambinho",
     "divórcio em Muzambinho",
     "pensão alimentícia em Muzambinho",
-    "guarda de filhos",
+    "guarda de filhos em Muzambinho",
     "inventário em Muzambinho",
-    "direito de sucessões",
+    "aposentadoria em Muzambinho",
+    "benefício do INSS em Muzambinho",
+    "BPC LOAS em Muzambinho",
+    "planejamento previdenciário",
+    "planejamento patrimonial",
   ],
-  generator: "v0.app",
-  alternates: { canonical: "/" },
+
+  authors: [
+    {
+      name: "Daísa Del Valle & Sabryna Fonseca Advocacia",
+    },
+  ],
+
+  creator: "Daísa Del Valle & Sabryna Fonseca Advocacia",
+  publisher: "Daísa Del Valle & Sabryna Fonseca Advocacia",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+
   openGraph: {
     type: "website",
     locale: "pt_BR",
     url: siteUrl,
     siteName: "Daísa Del Valle & Sabryna Fonseca Advocacia",
-    title: "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
+    title:
+      "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
     description:
-      "Advocacia próxima, estratégica e humanizada em Direito de Família, Patrimônio e Sucessões. Muzambinho/MG — atendimento presencial e online.",
+      "Atuação em Direito de Família e Direito Previdenciário em Muzambinho/MG, com atendimento presencial e online.",
   },
-  robots: { index: true, follow: true },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
+    description:
+      "Advocacia em Direito de Família e Direito Previdenciário em Muzambinho/MG.",
+  },
+
+  category: "Legal",
 }
 
 export const viewport: Viewport = {
@@ -62,12 +108,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${cormorant.variable} bg-background`}>
+    <html
+      lang="pt-BR"
+      className={`${inter.variable} ${cormorant.variable} bg-background`}
+    >
       <body className="font-sans antialiased">
         <Suspense fallback={null}>
           <TrackingScripts />
         </Suspense>
+
         {children}
+
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
