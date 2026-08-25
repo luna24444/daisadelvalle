@@ -25,12 +25,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Daísa Del Valle & Sabryna Fonseca | Advocacia em Muzambinho MG",
-    template: "%s | Del Valle & Fonseca Advocacia",
+    default: "Escritório de Advocacia em Muzambinho MG",
+    template: "%s | Del Valle & Fonseca Advogados Associados",
   },
 
   description:
-    "Daísa Del Valle & Sabryna Fonseca Advocacia em Muzambinho/MG. Atuação em Direito de Família e Direito Previdenciário, com atendimento presencial e online.",
+    "Del Valle & Fonseca Advocacia em Muzambinho/MG. Atuação em Direito da Família e Direito Previdenciário, com atendimento presencial e online.",
 
   keywords: [
     "advocacia em Muzambinho",
