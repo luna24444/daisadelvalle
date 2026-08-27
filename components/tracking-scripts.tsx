@@ -2,7 +2,7 @@ import Script from "next/script"
 
 export function TrackingScripts() {
   const pixelId = "1227801026172576"
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID
+  const gtmId = "GTM-5Z4PZWHX"
   const ga4Id = "G-NRSJ1E0PN5"
 
   return (
