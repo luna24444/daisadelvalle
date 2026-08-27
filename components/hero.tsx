@@ -65,7 +65,6 @@ export function Hero() {
               />
             </div>
 
-            {/* Moldura decorativa discreta */}
             <div
               aria-hidden="true"
               className="absolute -bottom-4 -left-4 -z-0 hidden h-full w-full rounded-sm border border-accent/60 md:block"
