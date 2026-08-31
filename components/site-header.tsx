@@ -76,7 +76,7 @@ export function SiteHeader() {
         </button>
       </div>
 
-      {/* Mobile overlay */}
+
       <div
         className={cn(
           "fixed inset-0 z-50 bg-background transition-transform duration-500 lg:hidden",
