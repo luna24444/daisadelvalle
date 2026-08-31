@@ -6,7 +6,6 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-secondary/60">
       <div className="mx-auto max-w-7xl px-5 py-16 md:px-8">
         <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
-          {/* Marca */}
           <div>
             <p className="font-serif text-lg leading-tight tracking-[0.14em] text-foreground">
               DAÍSA DEL VALLE
@@ -18,8 +17,6 @@ export function SiteFooter() {
               Advocacia próxima, estratégica e responsável em Direito de Família e Direito Previdenciário.
             </p>
           </div>
-
-          {/* Navegação */}
           <nav aria-label="Rodapé">
             <h3 className="text-[11px] uppercase tracking-widest-plus text-primary">Navegação</h3>
             <ul className="mt-5 space-y-3">
@@ -35,8 +32,6 @@ export function SiteFooter() {
               ))}
             </ul>
           </nav>
-
-          {/* Contato */}
           <div>
             <h3 className="text-[11px] uppercase tracking-widest-plus text-primary">Contato</h3>
             <ul className="mt-5 space-y-4 text-sm text-muted-foreground">
