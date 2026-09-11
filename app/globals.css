@@ -49,23 +49,18 @@
 
 :root {
   color-scheme: light;
-  /* Off-white warm background */
   --background: oklch(0.973 0.006 83);
-  /* Marrom profundo / preto suave */
   --foreground: oklch(0.24 0.018 55);
   --card: oklch(0.99 0.004 84);
   --card-foreground: oklch(0.24 0.018 55);
   --popover: oklch(0.99 0.004 84);
   --popover-foreground: oklch(0.24 0.018 55);
-  /* Vinho profundo — cor de destaque */
   --primary: oklch(0.36 0.088 18);
   --primary-foreground: oklch(0.97 0.006 83);
-  /* Bege claro */
   --secondary: oklch(0.93 0.012 78);
   --secondary-foreground: oklch(0.3 0.02 45);
   --muted: oklch(0.94 0.01 80);
   --muted-foreground: oklch(0.5 0.022 50);
-  /* Nude sofisticado */
   --accent: oklch(0.87 0.028 62);
   --accent-foreground: oklch(0.3 0.03 40);
   --destructive: oklch(0.505 0.16 25);
