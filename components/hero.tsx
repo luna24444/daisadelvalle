@@ -8,7 +8,6 @@ export function Hero() {
     <section id="inicio" className="relative overflow-hidden bg-background pt-28 md:pt-32">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 pb-16 md:px-8 md:pb-24 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
 
-        {/* Texto */}
         <div className="order-2 lg:order-1">
           <Reveal>
             <span className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest-plus text-primary">
@@ -51,7 +50,6 @@ export function Hero() {
           </Reveal>
         </div>
 
-        {/* Foto da Sabryna */}
         <Reveal delay={120} className="order-1 lg:order-2">
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
