@@ -11,7 +11,7 @@ export function Hero() {
         <div className="order-2 lg:order-1">
           <Reveal>
             <span className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest-plus text-primary">
-              DEL VALLE & FONSECA ADVOGADOS ASSOCIADOS 
+              DEL VALLE & FONSECA ADVOGADOS ASSOCIADOS
             </span>
           </Reveal>
 
@@ -54,8 +54,8 @@ export function Hero() {
           <div className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
               <Image
-                src="/Sabryna 3.jpeg"
-                alt="Dra. Sabryna Fonseca"
+                src="/Daisa e Sabryna.jpeg"
+                alt="Dra. Daisa e Dra. Sabryna Fonseca"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 45vw"
